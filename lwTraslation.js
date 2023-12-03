@@ -9,7 +9,7 @@ window.onload = ((event) => {
       }
     });
     console.log("Un segundo después ...");
-  }, 2000);
+  }, 5000);
 });
 
 
