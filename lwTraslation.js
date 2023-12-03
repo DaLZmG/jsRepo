@@ -2,7 +2,7 @@
 window.onload = ((event) => {
   let menuElements = document.getElementsByClassName('lw-topbar-option-link-lbl');
   menuElements.forEach((el) => { 
-    await setTimeout(() => {
+    setTimeout(() => {
       console.log("Un segundo después ...")
     }, 1000);
     // console.log(el.innerText);
