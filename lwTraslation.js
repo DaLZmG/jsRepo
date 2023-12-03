@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+window.addEventListener("load", (event) => {
   let menuElements = document.getElementsByClassName('lw-topbar-option-link-lbl');
   menuElements.forEach((el) => { 
     // console.log(el.innerText);
