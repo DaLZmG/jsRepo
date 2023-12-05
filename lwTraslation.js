@@ -8,6 +8,7 @@ window.onload = ((event) => {
         console.log('<<<< Done!!! >>>>>');
       } else if (el.innerText == 'Mis Cursos') {
         el.innerText = 'My Courses';
+      } 
     });
     console.log("Un segundo después ...");
   }, 5000);
