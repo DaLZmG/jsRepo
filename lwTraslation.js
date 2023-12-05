@@ -6,7 +6,8 @@ window.onload = ((event) => {
       if (el.innerText == 'Comunidad') { 
         el.innerText = 'Community';
         console.log('<<<< Done!!! >>>>>');
-      }
+      } else if (el.innerText == 'Mis Cursos') {
+        el.innerText = 'My Courses';
     });
     console.log("Un segundo después ...");
   }, 5000);
