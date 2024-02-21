@@ -7,7 +7,7 @@ window.onload = ((event) => {
         el.innerText = 'Community';
         console.log('<<<< Done!!! >>>>>');
       } else if (el.innerText == 'Mis Cursos') {
-        el.innerText = 'My Courses';
+        el.innerText = 'Mis Cursos';
       } 
     });
     console.log("Un segundo después ...");
