@@ -4,7 +4,7 @@ window.onload = ((event) => {
     let menuElements = document.getElementsByClassName('lw-topbar-option-link-lbl');
     menuElements.forEach((el) => { 
       if (el.innerText == 'Comunidad') { 
-        el.innerText = 'Community';
+        el.innerText = 'Tomás';
         console.log('<<<< Done!!! >>>>>');
       } else if (el.innerText == 'Mis Cursos') {
         el.innerText = 'Mis Cursos';
