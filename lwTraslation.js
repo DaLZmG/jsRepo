@@ -1,4 +1,4 @@
-
+/*
 window.onload = ((event) => {
   setTimeout(() => {
     let menuElements = document.getElementsByClassName('lw-topbar-option-link-lbl');
@@ -13,5 +13,6 @@ window.onload = ((event) => {
     console.log("Un segundo después ...");
   }, 5000);
 });
+*/
 
 
